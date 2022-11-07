@@ -25,23 +25,3 @@ system-a:
 
   serviceAccount:
     create: true
-
-system-b: 
-  replicaCount: 1
-  image:
-    repository: 419679277557.dkr.ecr.us-west-2.amazonaws.com/system
-    pullPolicy: IfNotPresent
-    tag: "latest"
-
-  service:
-    type: ClusterIP
-    port: 80
-
-  ingress:
-    enabled: true
-  
-  autoscaling:
-    enabled: false
-
-  serviceAccount:
-    create: true
