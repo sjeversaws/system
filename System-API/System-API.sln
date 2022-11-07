@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System-API", "System-API\System-API.csproj", "{26909D00-96AA-4527-8475-7F0C001DAC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{9A17EFA4-077B-4B24-AEBA-85EF3C766CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalThread.Lambda", "DigitalThread.Lambda\DigitalThread.Lambda.csproj", "{72B227A5-72A8-4950-BB45-88A8D3FF1EC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26909D00-96AA-4527-8475-7F0C001DAC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26909D00-96AA-4527-8475-7F0C001DAC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26909D00-96AA-4527-8475-7F0C001DAC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26909D00-96AA-4527-8475-7F0C001DAC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A17EFA4-077B-4B24-AEBA-85EF3C766CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A17EFA4-077B-4B24-AEBA-85EF3C766CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A17EFA4-077B-4B24-AEBA-85EF3C766CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A17EFA4-077B-4B24-AEBA-85EF3C766CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B227A5-72A8-4950-BB45-88A8D3FF1EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B227A5-72A8-4950-BB45-88A8D3FF1EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B227A5-72A8-4950-BB45-88A8D3FF1EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B227A5-72A8-4950-BB45-88A8D3FF1EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
