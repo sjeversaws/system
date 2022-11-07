@@ -24,7 +24,7 @@ system-a:
     enabled: false
 
   serviceAccount:
-    create: false
+    create: true
 
 system-b: 
   replicaCount: 1
@@ -44,4 +44,4 @@ system-b:
     enabled: false
 
   serviceAccount:
-    create: false
+    create: true
