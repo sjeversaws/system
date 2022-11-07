@@ -1,4 +1,21 @@
+# ================----------------
+# React
+# ================----------------
+
+node_modules/
+.cache/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
+
+# ================----------------
+# Rider
+# ================----------------
 # Common IntelliJ Platform excludes
+
+**/.idea/**
 
 # User specific
 **/.idea/**/workspace.xml
@@ -33,9 +50,9 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-# ==--
+# ================----------------
 # Terraform
-# ==--
+# ================----------------
 # Local .terraform directories
 **/.terraform/*
 
